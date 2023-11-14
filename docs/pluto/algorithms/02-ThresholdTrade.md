@@ -1,5 +1,0 @@
-# ThresholdTrade
-
-## Inputs
-## Steps
-## Remarks

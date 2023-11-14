@@ -1,11 +1,14 @@
-site_name: Capital Market Documantions  <sub><small>(last update:1401/9/16)</small></sub> 
+site_name: Java train Documantations, starts from Alireza & Sadegh  <sub><small>(last update:2023/11/14)</small></sub>
 theme:
   font: 
     text: Vazirmatn
-  logo: statics/img/arnika-logo.svg
-  favicon: statics/img/arnika-favicon.ico
-  name: material
+#  logo: statics/img/arnika-logo.svg
+#  favicon: statics/img/arnika-favicon.ico
+  name: 'material'
+  language: 'en'
   features:
+    - 'emoji':
+        emoji_code: 'twemoji'
     - navigation.tabs
   palette:
 #     primary: teal
@@ -58,7 +61,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://google.com
 
-copyright: Copyright &copy; 2020 - 2022 Arnika Co.
+#copyright: Copyright &copy; 2020 - 2022 Arnika Co.
 
 # Page tree
 
