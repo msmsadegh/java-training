@@ -1,0 +1,70 @@
+site_name: Capital Market Documantions  <sub><small>(last update:1401/9/16)</small></sub> 
+theme:
+  font: 
+    text: Vazirmatn
+  logo: statics/img/arnika-logo.svg
+  favicon: statics/img/arnika-favicon.ico
+  name: material
+  features:
+    - navigation.tabs
+  palette:
+#     primary: teal
+#     accent: cyan
+    - scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+#       Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+plugins:
+  - section-index
+  - drawio-exporter
+  - glightbox
+  - search
+  - literate-nav:
+      nav_file: SUMMARY.md
+  - table-reader:
+      data_path: "docs"
+      base_path: "config_dir"
+  - kroki
+#      ServerURL: http://0.0.0.0:9000
+  # - offline
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://google.com
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<email-address>
+    - icon: fontawesome/brands/github
+      link: https://google.com
+
+copyright: Copyright &copy; 2020 - 2022 Arnika Co.
+
+# Page tree
+
+# extra_css:
+#   - stylesheets/extra.css
+# extra_javascript:
+#   - javascripts/extra.js
+# nav:
+#   - ...

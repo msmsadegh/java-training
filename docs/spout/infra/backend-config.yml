@@ -1,0 +1,24 @@
+Logger:
+  file: logs/my_app.log
+  formatter: '[%(asctime)s] [%(process)d] [%(levelname)s] [FrontAPI] [%(name)s] [%(funcName)s]
+    - %(message)s'
+OMSDB:
+  database: OMS
+  host: 127.0.0.1 # Edit me
+  password: pO6/TTCiRBUNdfY3T6sRQOrWGC/S+XCTCKTfnBKG1F0=
+  port: 3306
+  user: data_lke
+Redis:
+  algDB: 1
+  host: localhost # Edit me
+  password: Z0QjDInn0FEjFUVs70tk+DNCsQ3laVcU0ENjiwr8QFA=
+  port: 6379
+  sessionDB: 2
+  streamDb: 0
+  infoDb: 4
+SpoutDB:
+  database: Spout
+  host: 127.0.0.1 # Edit me
+  password: 4lmkyXxKVfrWOEhlFki9wTuz/vew6zafQpGTdYQQ2ZE=
+  port: 3306
+  user: data_lke
