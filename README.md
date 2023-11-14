@@ -3,7 +3,7 @@
 step1: clone me =)
 
 ```
-git clone https://repo.arnika.ai/a_sharifianzadeh/capital_market_docs.git
+https://github.com/msmsadegh/java-training.git
 ```
 
 step2:
